@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Cliente;
 import com.example.demo.repository.Clientes;
 
-@CrossOrigin("https://aw-vendas.herokuapp.com")
+@CrossOrigin(origins = "https://aw-vendas.herokuapp.com")
 @RestController
 @RequestMapping("/clientes")
 public class ClientesResource {
