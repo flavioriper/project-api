@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Produto;
 import com.example.demo.repository.Produtos;
 
-@CrossOrigin("*")
+@CrossOrigin("https://aw-vendas.herokuapp.com")
 @RestController
 @RequestMapping("/produtos")
 public class ProdutosResource {

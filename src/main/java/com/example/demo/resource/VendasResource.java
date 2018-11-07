@@ -16,7 +16,7 @@ import com.example.demo.model.Venda;
 import com.example.demo.repository.Vendas;
 import com.example.demo.service.VendaService;
 
-@CrossOrigin("*")
+@CrossOrigin("https://aw-vendas.herokuapp.com")
 @RestController
 @RequestMapping("/vendas")
 public class VendasResource {
